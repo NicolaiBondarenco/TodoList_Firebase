@@ -1,0 +1,42 @@
+.EditPopup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+}
+
+.popup {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 40px 0;
+}
+
+.popup__title {
+  margin-bottom: 10px;
+}
+
+.popup__send {
+  margin-left: 10px;
+}
+.popup__close {
+  border: none;
+  background-color: transparent;
+  top: 10px;
+  right: 5px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.popup__close:hover {
+  opacity: 0.7;
+}
